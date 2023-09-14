@@ -1,0 +1,38 @@
+@media screen and (min-width: 800px) {
+    
+    body{
+        font-size: 80%;
+        font-family: cursive;
+        background-color: rgba(175, 76, 224, 0.735);
+    }
+    header{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    header .logop{
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    main div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    main .div1{
+        grid-column-start: 3;
+    }
+    main .div3{
+        grid-row-start: 3;
+        grid-column-start: 3;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+}

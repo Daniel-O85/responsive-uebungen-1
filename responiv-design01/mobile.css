@@ -1,0 +1,22 @@
+@media screen and (max-width: 799px) {
+    body{
+        font-size: 180%;
+        font-family: fantasy;
+        background-color: rgba(255, 166, 0, 0.76);
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
